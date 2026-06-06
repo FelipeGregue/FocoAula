@@ -1,0 +1,14 @@
+node_modules/
+dist/
+coverage/
+data/
+*.log
+*.err.log
+.env
+.env.*
+!.env.example
+tcc-spec.txt
+spec-pages/
+apps/**/node_modules/
+apps/**/dist/
+apps/**/data/

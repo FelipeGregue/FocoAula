@@ -1,0 +1,21 @@
+{
+  "name": "focoaula",
+  "version": "1.0.0",
+  "description": "MVP PWA para gestao de tarefas academicas de estudantes universitarios com TDAH.",
+  "main": "index.js",
+  "private": true,
+  "workspaces": [
+    "apps/frontend",
+    "apps/backend"
+  ],
+  "scripts": {
+    "dev:frontend": "npm run dev --workspace apps/frontend",
+    "dev:backend": "npm run start:dev --workspace apps/backend",
+    "build": "npm run build --workspace apps/backend && npm run build --workspace apps/frontend",
+    "test": "npm run test --workspace apps/backend"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs"
+}
